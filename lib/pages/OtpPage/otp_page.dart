@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ink_sphere/core/api/user_auth_api.dart';
 import 'package:ink_sphere/pages/OtpPage/widgets/otp_box.dart';
 
+// ignore: must_be_immutable
 class OtpPage extends StatefulWidget {
   OtpPage({super.key});
   TextEditingController pin1 = TextEditingController();
